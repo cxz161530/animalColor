@@ -1,0 +1,57 @@
+{
+    "animals": [
+      {
+        "id": 1,
+        "name": "Lion",
+        "category": "animals"
+      },
+      {
+        "id": 2,
+        "name": "Eagle",
+        "category": "animals"
+      },
+      {
+        "id": 3,
+        "name": "Shark",
+        "category": "animals"
+      },
+      {
+        "id": 4,
+        "name": "Elephant",
+        "category": "animals"
+      },
+      {
+        "id": 5,
+        "name": "Kangaroo",
+        "category": "animals"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Red",
+        "category": "colors"
+      },
+      {
+        "id": 2,
+        "name": "Blue",
+        "category": "colors"
+      },
+      {
+        "id": 3,
+        "name": "Green",
+        "category": "colors"
+      },
+      {
+        "id": 4,
+        "name": "Yellow",
+        "category": "colors"
+      },
+      {
+        "id": 5,
+        "name": "Purple",
+        "category": "colors"
+      }
+    ]
+  }
+  

@@ -1,0 +1,88 @@
+/* Container to hold the two divs on the same line */
+.container {
+    display: flex;  /* Align the child divs in a row */
+    justify-content: space-between;  /* Optionally, space out the divs evenly */
+    gap: 20px;  /* Adds space between the divs */
+}
+
+/* Style for each individual div */
+.box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 45%;  /* Adjust the width as necessary */
+    background-color: #f4f4f4;
+}
+
+/* Optional: Style for the button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.box {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Make sure the lists are styled nicely */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+/* Dragging Style */
+li.dragging {
+    opacity: 0.5;
+}
+
+/* Drop Zone Styling */
+#dropZoneAnimal {
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px dashed #888;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f8f8f8;
+    min-height: 100px;
+}
+
+#dropZoneColor {
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px dashed #888;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f8f8f8;
+    min-height: 100px;
+}
+
+/* Active Drop Zone */
+#dropZone.active {
+    background-color: #e8f7ff;
+}
