@@ -28,5 +28,14 @@ To get the project running locally, follow the steps below.
 
 Clone the repository to your local machine using Git:
 
-```bash
-git clone https://github.com/your-username/animal-color-categorizer.git
+```
+git clone https://github.com/cxz161530/animalColor
+cd animalColor
+npm install
+npm start
+```
+
+
+### 2. Open html and enjoy our app!
+
+
